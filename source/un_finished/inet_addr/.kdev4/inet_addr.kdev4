@@ -1,0 +1,39 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x12\x00i\x00n\x00e\x00t\x00_\x00a\x00d\x00d\x00r)
+
+[CMake]
+BuildDirs=/home/xroy/_devlop_/inet_addr/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/xroy/_devlop_/inet_addr/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0,Launch Configuration 1
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=inet_addr
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Configured from ProjectItem=inet_addr,inet_addr
+Project Target=inet_addr,inet_addr
+Working Directory=file:///home/xroy/_devlop_/inet_addr/build/
+isExecutable=false
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=timesrv1
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Configured from ProjectItem=inet_addr,timesrv1
+Project Target=inet_addr,timesrv1
+Working Directory=file:///home/xroy/_devlop_/inet_addr/build/
+isExecutable=false
